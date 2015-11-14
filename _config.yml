@@ -2,7 +2,10 @@
 menu:
   Home: /
   Archives: /archives
-rss: false #/atom.xml
+
+menu_icon:
+  Home: fa-home
+  Archives: fa-archive
 
 # Content
 excerpt_link: Read More
@@ -32,4 +35,4 @@ twitter:
 google_plus:
 
 # Disqus
-disqus_comments:
+disqus_shortname:

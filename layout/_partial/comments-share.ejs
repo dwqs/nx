@@ -1,7 +1,7 @@
 <!-- totop start -->
 <%- partial('totop') %>
 <!-- totop end -->
-<% if (config.disqus_shortname || theme.disqus_comments){ %>
+<% if (config.disqus_shortname || theme.disqus_shortname){ %>
 <script>
   var disqus_shortname = '<%= config.disqus_shortname %>';
   <% if (page.permalink){ %>

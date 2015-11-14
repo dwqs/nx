@@ -36,7 +36,13 @@ The default profile of the theme is `nx\_config.yml`：
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
+  About: /about
+
+# Menu Icon
+menu_icon:
+  Home: fa-home
+  Archives: fa-archive
+  About: fa-user
 
 # Content
 excerpt_link: Read More
@@ -66,7 +72,8 @@ twitter:
 google_plus:
 ```
 
-* **rss** - RSS link, default is false
+* **menu** - Navigation menu, you need to hexo new page 'about' for the about page.
+* **menu_icon** - Navigation icon
 * **Links** - Friendly Links
 * **excerpt_link** - "Read More" link at the bottom of excerpted articles. false to hide the link.
 * **fancybox** - Google Analytics ID
@@ -74,4 +81,4 @@ google_plus:
 * **google_analytics** - Google Analytics ID
 * **twitter** - Twiiter ID
 * **google_plus** - Google Plus ID
-* **disqus_comments** - Disqus ID
+* **disqus_shortname** - Disqus ID
