@@ -2,7 +2,7 @@
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
+rss: false #/atom.xml
 
 # Content
 excerpt_link: Read More
@@ -30,12 +30,6 @@ google_analytics:
 favicon: /favicon.ico
 twitter:
 google_plus:
-fb_admins:
-fb_app_id:
 
-
-# Duoshuo
-duoshuo_shortname: 
-
-# Baidu share
-baidushare: false
+# Disqus
+disqus_comments:

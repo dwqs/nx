@@ -66,7 +66,7 @@ twitter:
 google_plus:
 ```
 
-* **rss** - RSS link
+* **rss** - RSS link, default is false
 * **Links** - Friendly Links
 * **excerpt_link** - "Read More" link at the bottom of excerpted articles. false to hide the link.
 * **fancybox** - Google Analytics ID
@@ -74,3 +74,4 @@ google_plus:
 * **google_analytics** - Google Analytics ID
 * **twitter** - Twiiter ID
 * **google_plus** - Google Plus ID
+* **disqus_comments** - Disqus ID
