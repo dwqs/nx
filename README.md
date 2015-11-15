@@ -1,6 +1,6 @@
 ## NX
 
-A hexo theme based on [landscape](https://github.com/hexojs/hexo-theme-landscape/) and supported https.
+A hexo theme based on [landscape-plus](https://github.com/hexojs/hexo-theme-landscape).
 
 Preview: [https://dwqs.github.io](https://dwqs.github.io)
 ## Installation
