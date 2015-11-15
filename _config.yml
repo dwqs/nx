@@ -42,7 +42,10 @@ fb_app_id:
 disqus_shortname:
 
 #baidushare
-baidushare: true
+baidushare: fasle
 
 #duoshuo
 duoshuo_shortname:
+
+# Footer 显示文章的<footer>标签
+isShowFooter: false

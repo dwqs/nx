@@ -81,6 +81,9 @@ baidushare: true
 
 # duoshuo
 duoshuo_shortname:
+
+# Footer
+isShowFooter: false
 ```
 
 * **menu** - Navigation menu, you need to hexo new page 'about' for the about page.
@@ -95,3 +98,4 @@ duoshuo_shortname:
 * **disqus_shortname** - Disqus ID
 * **disqus_shortname** - Duoshuo ID
 * **baidushare** - Enable [Baidu Share]
+* **isShowFooter** - Enable [<footer> in article page]
