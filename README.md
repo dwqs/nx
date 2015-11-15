@@ -70,15 +70,28 @@ google_analytics:
 favicon: /favicon.ico
 twitter:
 google_plus:
+fb_admins: 
+fb_app_id:
+
+# Disqus
+disqus_shortname:
+
+# baidushare
+baidushare: true
+
+# duoshuo
+duoshuo_shortname:
 ```
 
 * **menu** - Navigation menu, you need to hexo new page 'about' for the about page.
 * **menu_icon** - Navigation icon
 * **Links** - Friendly Links
 * **excerpt_link** - "Read More" link at the bottom of excerpted articles. false to hide the link.
-* **fancybox** - Google Analytics ID
+* **fancybox** - Enable [Fancybox]
 * **favicon** - Favicon path
 * **google_analytics** - Google Analytics ID
 * **twitter** - Twiiter ID
 * **google_plus** - Google Plus ID
 * **disqus_shortname** - Disqus ID
+* **disqus_shortname** - Duoshuo ID
+* **baidushare** - Enable [Baidu Share]

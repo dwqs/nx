@@ -3,6 +3,8 @@ menu:
   Home: /
   Archives: /archives
 
+#rss: /atom.xml
+
 menu_icon:
   Home: fa-home
   Archives: fa-archive
@@ -33,6 +35,14 @@ google_analytics:
 favicon: /favicon.ico
 twitter:
 google_plus:
+fb_admins:
+fb_app_id:
 
 # Disqus
 disqus_shortname:
+
+#baidushare
+baidushare: true
+
+#duoshuo
+duoshuo_shortname:

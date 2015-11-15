@@ -1,13 +1,13 @@
 <footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
+    <% if (theme.sidebar === 'bottom'){ %>
     <%- partial('_partial/sidebar') %>
-  <% } %>
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-      .
-      Theme by <a href="https://github.com/dwqs/nx" target="_blank">nx</a>
+    <% } %>
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+            .
+            Theme by <a href="https://github.com/dwqs/nx" target="_blank">nx</a>
+        </div>
     </div>
-  </div>
 </footer>

@@ -6,17 +6,17 @@
     var title = page.title;
 
     if (is_archive()){
-    title = 'Archives';
+        title = 'Archives';
 
-    if (is_month()){
-    title += ': ' + page.year + '/' + page.month;
-    } else if (is_year()){
-    title += ': ' + page.year;
-    }
+        if (is_month()){
+            title += ': ' + page.year + '/' + page.month;
+        } else if (is_year()){
+            title += ': ' + page.year;
+        }
     } else if (is_category()){
-    title = 'Category: ' + page.category;
+        title = 'Category: ' + page.category;
     } else if (is_tag()){
-    title = 'Tag: ' + page.tag;
+        title = 'Tag: ' + page.tag;
     }
     %>
     <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
@@ -26,7 +26,7 @@
     <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
     <% } %>
     <% if (theme.favicon){ %>
-    <link href="<%- config.root %>" rel="shortcut icon" type="image/x-icon">
+    <link href="<%- config.root %>favicon.ico" rel="shortcut icon" type="image/x-icon">
     <% } %>
     <%- css('css/style') %>
     <link href="https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
