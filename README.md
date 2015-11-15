@@ -61,7 +61,7 @@ widgets:
 
 # Links
 links:
-  Author: http://ido321.com
+  Author: http://www.ido321.com
   Jiuai Website: http://www.92fenxiang.com
   Front-end Developer Handbook: https://dwqs.gitbooks.io/frontenddevhandbook/content/
 
