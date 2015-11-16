@@ -1,13 +1,13 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  #Archives: /archives
 
 #rss: /atom.xml
 
 menu_icon:
   Home: fa-home
-  Archives: fa-archive
+  #Archives: fa-archive
 
 # Content
 excerpt_link: Read More
