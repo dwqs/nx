@@ -98,4 +98,4 @@ isShowFooter: false
 * **disqus_shortname** - Disqus ID
 * **disqus_shortname** - Duoshuo ID
 * **baidushare** - Enable [Baidu Share]
-* **isShowFooter** - Enable [<footer> in article page]
+* **isShowFooter** - Enable [`<footer>` in article page]
