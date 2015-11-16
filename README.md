@@ -1,5 +1,7 @@
 ## NX
 
+Readme中文版: [README_zh](./README_zh.md)
+
 A hexo theme based on [landscape-plus](https://github.com/hexojs/hexo-theme-landscape).
 
 Preview: [https://dwqs.github.io](https://dwqs.github.io)
