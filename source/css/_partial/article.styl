@@ -32,11 +32,11 @@
   text-decoration: none
   font-size: 2em
   font-weight: bold
-  color: color-default
+  color: article-title-color
   line-height: line-height-title
   transition: color 0.2s
   a&:hover
-    color: color-link
+    color: article-title-hover-color
 
 .article-entry
   @extend $base-style
@@ -52,10 +52,10 @@
     line-height: line-height-title
     margin: line-height-title 0
   a
-    color: color-link
+    color: article-title-color
     text-decoration: none
     &:hover
-      text-decoration: underline
+      color: article-title-hover-color
   ul, ol, dl
     margin-top: line-height
     margin-bottom: line-height
