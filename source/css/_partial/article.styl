@@ -7,23 +7,30 @@
 
 .article-meta
   clearfix()
+  margin-top: 10px
 
 .article-date
   @extend $block-caption
   float: left
+  color: #cecece
+  &:before
+    content: "日期:"
 
 .article-category
   float: left
   line-height: 1em
-  color: #ccc
   text-shadow: 0 1px #fff
   margin-left: 8px
+  color: #cecece
   &:before
-    content: "\2022"
+    content: "分类:"
 
 .article-category-link
   @extend $block-caption
-  margin: 0 12px 1em
+  color: #cecece
+  &:hover
+    color: article-title-hover-color
+  //margin: 0 12px 1em
 
 .article-header
   padding: article-padding article-padding 0
@@ -43,6 +50,7 @@
   clearfix()
   color: color-default
   padding: 0 article-padding
+  margin-top: -10px
   p, table
     line-height: line-height
     margin: line-height 0
@@ -122,20 +130,23 @@
       height: 100%
       margin-top: 0
 
+.article-more-link
+  position: relative
+  height: 26px
+
 .article-more-link a
-  display: inline-block
+  position absolute
+  right: 0
   line-height: 1em
   padding: 6px 15px
   border-radius: 15px
-  background: color-background
-  color: color-grey
-  text-shadow: 0 1px #fff
+  background: article-more-link-color
+  color: #d9eef4
   text-decoration: none
   &:hover
-    background: color-link
+    background: article-more-link-hover-color
     color: #fff
     text-decoration: none
-    text-shadow: 0 1px darken(color-link, 20%)
 
 .article-footer
   clearfix()
