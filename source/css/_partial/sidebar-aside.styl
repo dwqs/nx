@@ -21,9 +21,12 @@
     color: color-grey
     text-decoration: none
     &:hover
-      text-decoration: underline
+      text-decoration: none
       color: color-link
   ul, ol, dl
     ul, ol, dl
       margin-left: 15px
       list-style: disc
+.widget a:hover + span {
+  color: color-link;
+}
